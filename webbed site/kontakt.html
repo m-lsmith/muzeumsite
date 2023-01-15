@@ -1,0 +1,112 @@
+<html>
+  <head>
+    <title>Muzeum Odnalezionych</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div id="wrapperHeader">
+      <div id="header">
+        <img id="headerImg" src="headerVersion2.png" alt="logo" />
+        <nav id="navBar">
+          <li>
+            <img class="icon" src="gifs\brushpt.gif" />
+            <a href="index.html">Eksponaty</a>
+          </li>
+          <li>
+            <img class="icon" src="gifs/book3.gif" />
+            <a href="historia.html">Historia Muzeum</a>
+          </li>
+          <li>
+            <img class="icon" src="gifs\email06.gif" />
+            <a href="kontakt.html"> Kontakt </a>
+          </li>
+        </nav>
+      </div>
+    </div>
+
+    <hr id="line" />
+
+    <div id="wrapperAbout">
+        <div id="about">
+            <p>
+            Muzeum Odnalezionych w Myślenicach powstało dzięki przekazaniu zbiorów honorowej mieszkanki miejscowości, Pani Anny Nowak.
+            </p>
+
+           <p> Kontakt: </p>
+            
+            <p>ul. Agnieszki Waśkiel 95
+            <br>
+            33-333 Myślenice
+            </p>
+        </div>
+      </div>
+
+  </body>
+
+  <style>
+    body {
+      background-image: url("backgroundGif.gif");
+      background-color: #cccccc;
+      font-size: 27px;
+    }
+
+    #headerImg {
+      margin: 0 auto;
+      max-width: 80%;
+    }
+
+    #header {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    #navBar {
+      list-style-type: none;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+    }
+
+    nav li a {
+      padding: 5px 7px;
+      border-style: outset;
+      background-image: linear-gradient(lightgrey, grey);
+      font-size: 1.25vw;
+    }
+
+    .icon {
+      width: 50px;
+      height: auto;
+    }
+
+    #line {
+      margin-top: 20px;
+      border-top: black dashed 2px;
+    }
+
+    #wrapperAbout {
+      display: flex;
+      justify-content: center;
+      width: 100%;
+    }
+
+    #about {
+      background: #F5F5DC;
+      width: 75%;
+      display: flex;
+      flex-direction: column;
+      padding: 5px 20px;
+    }
+
+    </style>
+</html>
